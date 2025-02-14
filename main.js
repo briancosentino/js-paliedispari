@@ -2,7 +2,7 @@
 Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma */
 
 
-/* 
+
 function isPalindrom (){
     const userWord = prompt('scrivi la tua parola')
     const reversedList = []
@@ -24,7 +24,7 @@ function isPalindrom (){
 }
  isPalindrom()
 
- */
+ 
  
 
 
