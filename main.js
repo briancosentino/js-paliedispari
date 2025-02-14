@@ -3,8 +3,29 @@ Chiedere all’utente di inserire una parola Creare una funzione per capire se l
 
 
 
+function isPalindrom (){
+    const userWord = prompt('scrivi la tua parola')
+    const reversedList = []
+    const listOfCharacter = userWord.split('')
+    
+    for (let i = 0; i < listOfCharacter.length; i++){
+       const thisCharacter = listOfCharacter[i]
+       reversedList.unshift(thisCharacter)
+    }
+    const reversedWord = reversedList.join('')
+    if (reversedWord === userWord){
+        console.log('è palindroma');
+        
+    } else {
+        console.log('non è palindroma');
+        
+    }
+    
+}
+ isPalindrom()
 
 
+ 
 
 
 /* Pari e Dispari
